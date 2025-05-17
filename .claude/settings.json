@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node --check /home/aladdin/Dev/Work/Manarah/server/db/demoSeed.js)",
+      "Bash(node --check /home/aladdin/Dev/Work/Manarah/server/routes/demo.js)",
+      "Bash(node --check /home/aladdin/Dev/Work/Manarah/server/routes/teacherPortal.js)",
+      "Bash(node --check /home/aladdin/Dev/Work/Manarah/server/index.js)",
+      "Bash(node --check /home/aladdin/Dev/Work/Manarah/server/middleware/auth.js)",
+      "Bash(node --check /home/aladdin/Dev/Work/Manarah/server/controllers/authController.js)",
+      "Bash(node --check /home/aladdin/Dev/Work/Manarah/server/models/User.js)",
+      "Bash(node -e \":*)",
+      "Bash(node -e \"require\\(''''./server/db/demoSeed''''\\)\")",
+      "Bash(node --input-type=module:*)",
+      "Bash(node --check server/db/demoSeed.js)",
+      "Bash(node --check server/routes/demo.js)",
+      "Bash(node --check server/routes/teacherPortal.js)",
+      "Bash(node --check server/controllers/authController.js)",
+      "Bash(node_modules/.bin/vite build:*)"
+    ]
+  }
+}

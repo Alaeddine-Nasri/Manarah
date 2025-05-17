@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e \":*)",
+      "Bash(nvm list:*)",
+      "Bash(source /home/aladdin/.nvm/nvm.sh)",
+      "Bash(nvm use:*)",
+      "Bash(curl -s -X POST http://localhost:3001/api/auth/login -H \"Content-Type: application/json\" -d '{\"\"\"\"email\"\"\"\":\"\"\"\"admin@manarah.com\"\"\"\",\"\"\"\"password\"\"\"\":\"\"\"\"admin123\"\"\"\"}')",
+      "Bash(python3 -m json.tool)",
+      "Bash(curl -s -X POST http://localhost:3001/api/auth/login -H \"Content-Type: application/json\" -d '{\"\"email\"\":\"\"admin@manarah.com\"\",\"\"password\"\":\"\"admin123\"\"}')",
+      "Bash(TOKEN=\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJhZG1pbkBtYW5hcmFoLmNvbSIsInJvbGUiOiJhZG1pbiIsInNjaG9vbF9pZCI6MSwiaWF0IjoxNzc0NTU3NDc4LCJleHAiOjE3NzUxNjIyNzh9.b2iWlIVeJnN0NL4x3oo7PMfvrvHmtzG395R54opjdLE\" curl -s http://localhost:3001/api/auth/me -H \"Authorization: Bearer $TOKEN\")",
+      "Bash(DB_PATH=/home/aladdin/Dev/Work/Manarah/server/data/manarah.db node -e \":*)",
+      "Bash(sleep 3 curl -s -X POST http://localhost:3001/api/auth/login -H \"Content-Type: application/json\" -d '{\"\"\"\"email\"\"\"\":\"\"\"\"admin@manarah.com\"\"\"\",\"\"\"\"password\"\"\"\":\"\"\"\"admin123\"\"\"\"}')",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(''''Server OK:'''', bool\\(d.get\\(''''token''''\\)\\)\\)\")",
+      "Bash(npm install:*)",
+      "Bash(/home/aladdin/.nvm/versions/node/v20.20.1/bin/node -e \":*)",
+      "Bash(/home/aladdin/.nvm/versions/node/v20.20.1/bin/node /home/aladdin/.nvm/versions/node/v20.20.1/bin/npx vite build)",
+      "Bash(timeout 5 /home/aladdin/.nvm/versions/node/v20.20.1/bin/node index.js)"
+    ]
+  }
+}
