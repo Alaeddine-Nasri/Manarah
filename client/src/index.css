@@ -415,6 +415,12 @@ a {
   border-radius: var(--r-lg);
   padding: 20px;
   box-shadow: var(--shadow-sm);
+  transition: transform 0.15s, box-shadow 0.15s;
+  cursor: default;
+}
+.stat-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
 }
 .stat-card-icon {
   width: 40px; height: 40px;
