@@ -1013,9 +1013,9 @@ td {
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  padding: 3px 8px;
-  border-radius: 20px;
-  font-size: 12px;
+  padding: 2px 7px;
+  border-radius: 6px;
+  font-size: 11.5px;
   font-weight: 500;
   white-space: nowrap;
 }
