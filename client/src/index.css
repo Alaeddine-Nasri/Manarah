@@ -305,6 +305,7 @@ a {
 .nav-item.active {
   background: var(--primary-soft);
   color: var(--primary);
+  box-shadow: inset 3px 0 0 var(--primary);
 }
 
 .nav-item svg {
