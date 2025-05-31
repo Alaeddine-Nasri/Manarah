@@ -250,6 +250,7 @@ a {
   display: flex;
   flex-direction: column;
   overflow-y: auto;
+  overflow-x: hidden;
   flex-shrink: 0;
   padding: 16px 12px;
   transition: background 0.2s ease;
