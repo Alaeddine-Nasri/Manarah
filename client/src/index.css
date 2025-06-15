@@ -800,6 +800,7 @@ td {
 .detail-panel.open {
   width: var(--panel-w);
   border-left: 1px solid var(--border);
+  box-shadow: -2px 0 8px rgba(0,0,0,0.04);
   overflow-y: auto;
 }
 
