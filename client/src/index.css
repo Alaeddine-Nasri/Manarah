@@ -180,6 +180,7 @@ a {
 
 .topbar-search input::placeholder {
   color: var(--text-light);
+  opacity: 0.6;
 }
 
 .topbar-actions {
