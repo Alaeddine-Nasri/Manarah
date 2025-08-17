@@ -268,7 +268,7 @@ export default function Settings() {
                     { label:'Groupes', value: school.group_count, color:'var(--orange)', bg:'var(--orange-soft)' },
                   ].map(({ label, value, color, bg }) => (
                     <div key={label} style={{
-                      background: bg, borderRadius:'var(--r)', padding:'14px 18px',
+                      background: bg, borderRadius:10, padding:'16px 20px',
                       display:'flex', flexDirection:'column', alignItems:'center', gap:4,
                       minWidth:90,
                     }}>
