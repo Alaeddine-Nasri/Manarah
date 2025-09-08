@@ -608,7 +608,7 @@ export default function Sessions() {
                 onSelect={d => { setDate(d); }}
               />
               <div style={{ display:'flex', justifyContent:'flex-end', padding:'2px 10px 6px' }}>
-                <button className="btn btn-ghost btn-sm" style={{ fontSize:11 }}
+                <button className="btn btn-ghost btn-sm" style={{ fontSize:12, fontWeight:500, borderRadius:'var(--r)' }}
                   onClick={() => setScanSession(true)}>
                   📷 Passer au scanner
                 </button>
@@ -620,7 +620,7 @@ export default function Sessions() {
                 {scanSession && <QRScanner onScan={handleScan} />}
               </div>
               <div style={{ display:'flex', justifyContent:'flex-end', padding:'4px 10px 4px', flexShrink:0 }}>
-                <button className="btn btn-ghost btn-sm" style={{ fontSize:11 }}
+                <button className="btn btn-ghost btn-sm" style={{ fontSize:12, fontWeight:500, borderRadius:'var(--r)' }}
                   onClick={() => setScanSession(null)}>
                   📅 Voir le calendrier
                 </button>
