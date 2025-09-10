@@ -274,12 +274,12 @@ a {
 }
 
 .sidebar-label {
-  font-size: 11px;
+  font-size: 10px;
   color: var(--text-light);
   font-weight: 600;
   padding: 0 10px;
   margin-bottom: 6px;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.07em;
   text-transform: uppercase;
   display: block;
 }
