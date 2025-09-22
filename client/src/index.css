@@ -377,6 +377,7 @@ a {
   overflow-y: auto;
   padding: 28px;
   animation: fadeInUp 0.2s ease;
+  scroll-behavior: smooth;
 }
 
 .page-header {
