@@ -1308,7 +1308,7 @@ td {
 .login-card {
   background: var(--surface);
   border-radius: var(--r-xl);
-  padding: 40px;
+  padding: 44px;
   width: 380px;
   box-shadow: var(--shadow-md);
   border: 1px solid var(--border);
