@@ -1330,6 +1330,7 @@ td {
   font-weight: 700;
   margin-bottom: 6px;
   color: var(--text);
+  letter-spacing: -0.02em;
 }
 
 .login-subtitle {
