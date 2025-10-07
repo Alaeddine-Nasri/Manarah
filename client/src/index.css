@@ -845,7 +845,7 @@ td {
 }
 
 .panel-inner {
-  padding: 20px;
+  padding: 20px 18px;
   min-width: var(--panel-w);
 }
 
