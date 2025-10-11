@@ -779,7 +779,7 @@ td {
 
 .action-btn:hover {
   background: var(--border);
-  color: var(--text);
+  color: var(--primary);
 }
 
 .table-empty {
