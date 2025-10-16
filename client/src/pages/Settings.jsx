@@ -253,7 +253,7 @@ export default function Settings() {
                   <div style={{ fontSize:11, fontWeight:700, letterSpacing:1, opacity:.75, textTransform:'uppercase' }}>
                     École
                   </div>
-                  <div style={{ fontSize:20, fontWeight:800, lineHeight:1.2 }}>{school.name}</div>
+                  <div style={{ fontSize:20, fontWeight:800, lineHeight:1.2, letterSpacing:'-0.01em' }}>{school.name}</div>
                   {school.location && (
                     <div style={{ fontSize:13, opacity:.85, marginTop:2 }}>📍 {school.location}</div>
                   )}
