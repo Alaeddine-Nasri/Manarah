@@ -409,8 +409,9 @@ a {
 
 .breadcrumb-current {
   color: var(--text);
-  font-weight: 600;
+  font-weight: 700;
   font-size: 18px;
+  letter-spacing: -0.01em;
 }
 
 .page-actions {
