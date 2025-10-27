@@ -3678,6 +3678,7 @@ tr.row-flash {
   gap: 10px;
   padding: 10px 16px;
   flex-wrap: wrap;
+  border-bottom: 1px solid var(--border-light);
 }
 .cal-header-title {
   font-size: 17px;
