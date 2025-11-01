@@ -262,7 +262,7 @@ a {
   overflow-y: auto;
   overflow-x: hidden;
   flex-shrink: 0;
-  padding: 16px 12px;
+  padding: 14px 10px;
   transition: background 0.2s ease;
 }
 
