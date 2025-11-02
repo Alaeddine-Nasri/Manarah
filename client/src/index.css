@@ -278,7 +278,8 @@ a {
 }
 
 .sidebar-section {
-  margin-bottom: 8px;
+  margin-bottom: 6px;
+  margin-top: 4px;
 }
 
 .sidebar-label {
