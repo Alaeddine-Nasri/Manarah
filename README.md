@@ -23,8 +23,6 @@ Built solo as a portfolio project, with a focus on real-world usability, clean a
 |----------------------|-----------------|
 | ![Scanner](docs/scanner.png) | ![Cards](docs/cards.png) |
 
-> *(replace with actual screenshots)*
-
 ---
 
 ## Key Features
