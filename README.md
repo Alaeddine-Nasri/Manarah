@@ -19,7 +19,7 @@ Built solo as a portfolio project, with a focus on real-world usability, clean a
 |-----------|------------------|
 | ![Dashboard](docs/dashboard.png) | ![Sessions](docs/sessions.png) |
 
-| QR Attendance Scanner | Student ID Cards |
+| QR Attendance | Student ID Cards |
 |----------------------|-----------------|
 | ![Scanner](docs/scanner.png) | ![Cards](docs/cards.png) |
 
